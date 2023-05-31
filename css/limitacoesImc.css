@@ -1,0 +1,165 @@
+
+
+
+.card-limitacoesImc{
+    width: 1160px;
+    min-width: 769px;
+    height: 704px;
+    margin-top: 120px;
+    margin-left: 140px;
+   position: relative;
+}
+.card-genero-limitacoes{
+    display: grid;
+    position: relative;
+    gap: 32px;
+}
+
+
+.grid-area{
+     grid-template-areas:
+     "texto genero genero"
+     "linha idade musculo"
+     "nadinha gravidez corrida"
+    ;
+}
+
+.grid-area .item-1{
+    grid-area: texto;
+
+}
+
+
+.grid-area .item-2{
+    grid-area: genero;
+}
+
+.item-2{
+    position: relative;
+    right: -150px;
+}
+.item-3{
+    position: relative;
+    left: -60px;
+}
+
+
+.grid-area .item-3{
+    grid-area: idade;
+}
+
+.item-3 {
+    margin-left: -139px;
+    height: 122px;
+    width: 94px;
+
+}
+.grid-area .item-4{
+    grid-area: idade;
+}
+
+
+
+
+.grid-area .item-5{
+    grid-area: musculo;
+
+}
+.item-5  {
+    position: relative;
+    width: 365px;
+    height: 250px;
+    box-shadow: 16px 0px 56px 0px rgba(143, 174, 207, 0.25);
+    border-radius: 16px;
+    
+ }
+
+
+ .item-5 p {
+    width: 285px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6E85;
+}
+
+
+.item-4, .item-5{
+   position: relative;
+   left: -140px;
+
+}
+
+.grid-area .item-6{
+    grid-area: gravidez;
+}
+
+.item-6, .item-7{
+    position: relative;
+    margin-top: -28px;
+    margin-left: -360px;
+}
+
+.grid-area .item-7{
+    grid-area: corrida;
+}
+
+
+
+
+
+.texto-limitacoes{
+    width: 564px;
+}
+
+.texto-limitacoes h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:#253347;
+}
+
+.texto-limitacoes p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6E85;
+    width: 564px;
+}
+
+.geral{
+    width: 365px;
+    height: 232px;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+    border-radius: 16px;
+}
+.box{
+    width: 301px;
+    margin: 32px;
+    
+}
+.img{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img h3{
+    font-size: 20px;
+    color: #253347;
+}
+
+.geral p {
+    width: 301px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6E85;
+}
+
+
+.img-curva > img {
+    width: 125 px;
+    margin-left: -239px;
+    margin-bottom: 67px;
+}
+
+.texto-limitacoes > h1{
+    margin-bottom: 35px;
+}

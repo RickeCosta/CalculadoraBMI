@@ -1,0 +1,368 @@
+@media (max-width: 391px){
+    body{
+        width: 375px;
+        height: 4418px;
+        overflow-x: hidden;
+    }
+    .coitainer-principal{
+        margin: 0;
+    }
+    .container {
+        width: 375px;
+        height: 1140px;
+        margin: 0 auto;
+        
+    }
+
+  
+   
+    .card-text{
+        height: 840px;
+        margin: 0;
+    }
+    .texto{
+        width: 327px;
+        height: 327px;
+        margin: 0 auto;
+    }
+    .texto h1{
+        width: 327px;
+        height: 159px;
+        font-size: 48px;
+        text-align: inherit;
+        text-align: center;
+    }
+    .texto p {
+        width: 327px;
+        height: 144px;
+        text-align: inherit;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    #container{
+        width: 328px ;
+        position: absolute;
+        display: flex;
+        height: 699px;
+        left: 24px;     
+        top: 591px;
+        align-items: center;
+        justify-content: center;
+    }
+    #container p {
+        width: 256px;
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .card-total{
+        width: 280px;
+        margin: 0px;
+        margin-left: 0px;
+    }
+   
+
+ 
+    .medidas{
+        gap: 0;
+        gap: 55px;
+        
+    }
+   
+    .card-imc {
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        top: -0px;
+        width: 280px;
+        height: 212px;
+        margin-bottom: 60px;
+    }
+
+    #altura ,#peso{
+        width: 280px;
+        height: 69px;
+        margin-top: 8px;
+    }
+    #ft ,#in,#st,#lbs{
+        width: 132px;
+        height: 69px;
+        margin-top: 8px;
+        margin-bottom: 80px;
+    }
+
+    .st-lbs,.ft{
+        width: 280px;
+        height: 69px;
+        margin-top: 28px;
+        padding: 0;
+        
+    }
+
+    #st-lbs{
+        width: 280px;
+        height: 98px;
+        margin: 0;
+       position: relative;
+        top: 16px;
+    }
+
+    .ft{
+        width: 280px;
+        height: 98px;
+        position: relative;
+        margin: 0;
+    }
+    .imperial{
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        top: -0px;
+        width: 280px;
+        height: 212px;
+        margin-bottom: 60px;
+    }
+
+    
+.card-ft::after{    
+    content: 'ft';
+    position: relative;
+    color: #345FF6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: 95px;
+    top: -125px;
+
+}  
+.card-in::after{    
+    content: 'in';
+    position: relative;
+    color: #345FF6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: 95px;
+    top: -125px;
+}  
+
+.card-st::after{    
+    content: 'st';
+    position: relative;
+    color: #345FF6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: 95px;
+    top: -125px;
+    
+}           
+.card-lbs::after{    
+    content: 'lbs';
+    position: relative;
+    color: #345FF6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: 85px;
+    top: -125px;
+}           
+    .peso{
+        margin: 0;
+        position: relative;
+        top: -20px;
+    }
+
+    form{
+        width: 328px;
+        margin: 0;
+        
+    }
+
+    [data-resultado]{
+        width: 280px;
+        height: 257px;
+        border-radius: 16px;
+        margin: 0;   
+        margin-top: -30px;
+    }
+    [data-resultado] h1,p{
+        margin-left: 24px;
+    }
+
+    .res-imc{
+       width: 216px;
+       height: 85px;
+
+    }
+   
+    .res-imc h3{
+        font-size: 24px;
+    }
+    .card-res{
+        width: 280px;
+        height: 257px;
+        border-radius: 16px;
+        margin: 0;   
+        margin-top: -30px;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .text-imc p{
+      font-weight: 100;
+      margin-left: -10px;
+    }
+   
+
+    .container-bmi-result{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 744.39px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 196px;
+        margin-bottom: 0px;
+        
+    }
+    .img-homem img{
+        width: 375px;
+        height: 354.39px;
+        left: 0px;
+    }
+    .card-texto-bmi{
+        width: 328px;
+        height: 342px;
+        margin: 0;
+        margin-top: 80px;
+    }
+   
+    .card-texto-bmi p {
+        margin: 0;
+        margin-top: 32px;
+    }
+
+    .container-atividades{
+        width: 375px;
+        height: 879px;
+        left: 0px;
+        border-radius: 0px;
+        margin-top: 71px;
+    }
+    .card-atividades{
+        width: 327px;
+        height: 791px;
+        margin: 0;
+        margin-left: 19px;
+    }
+   .card-geral{
+    flex-direction: column;
+    margin: 0;
+    align-items: start;
+    justify-content: start;
+    width: 327px;
+    height: 231px;
+   }
+
+   .flex{
+    margin: 0;
+    margin-top: 0px;
+    margin-top: 20px;
+   }
+   .flex h2{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 24px;
+   }
+   .flex p{
+    margin: 0;
+    width: 327px;
+    height: 72px;
+    font-size: 16px;
+   }
+
+
+   .card-limitacoesImc{
+    width: 327px;
+    height: 1435px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 122px;
+    margin-left: 24px
+}
+
+.texto-limitacoes{
+    margin-bottom: 56px;
+    width: 327px;
+    height: 235px;
+  
+}
+.texto-limitacoes h1{
+    font-size: 32px;
+    text-align: center;
+}
+.texto-limitacoes p{
+    text-align: center;
+    margin: 0;
+    width: 327px;
+    height: 168px;
+}
+
+.grid-area{
+    grid-template-areas:
+    "texto "
+    "genero"
+    "idade"
+    "musculo"
+    "gravidez"
+    "corrida"
+   ;
+
+}
+.item-1{
+    left: 0;
+}
+.item-2{
+    right: 0px;
+}
+.item-4{
+    left: -0px;
+}
+.item-5{
+    left: -0px;
+}
+.item-6{
+    margin-left: 0;
+    margin-top: 0;
+    left: 0px;
+
+}
+.item-7{
+    margin-left: 0;
+    top: 20px;
+}
+.geral,.item-5{
+    width: 327px;
+    height: 192px;
+}
+.box{
+    width: 279px;
+    height: 168px;
+    margin: 0;
+    margin-left: px;
+}
+.box p {
+    width: 279px;
+    font-size: 15px;
+}
+.img{
+    margin: 10px;
+}
+}

@@ -1,0 +1,45 @@
+.container-atividades{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top:96px ;
+    height: 402px;
+    display: flex;
+    align-items: center;    
+    background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+    border-radius: 35px;
+}
+
+.card-atividades{
+    display: flex;
+    margin-left: 116px;
+    margin-right: 116px;
+    width: 1159px;
+    height: 234px;
+    gap:84px ;
+  
+}
+
+.card-atividades img{
+    width: 64px;
+    height: 64px;
+    margin-bottom:45px ;
+
+}
+
+.card-atividades h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #253347;
+    margin-bottom: 24px;
+    font-family: 'Inter';
+}
+
+.card-atividades p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6E85;
+}
+
+.ccard-geral h2,p{
+    width: 365px;
+}

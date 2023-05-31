@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/geral.css">
+    <title>IMC Calculadora</title>
+</head>
+<body>
+    <main class="coitainer-principal">
+        <section class="container"> 
+            <div class="card-text">
+                <img src="./assets/images/logo.svg" alt="">
+                <div class="texto">
+                    
+                        <h1>
+                            Calculadora de Índice de Massa Corporal
+                        </h1>
+                        <p> Entenda melhor seu peso em relação à sua altura usando nossa 
+                            calculadora de índice de massa corporal (BM). 
+                            Embora o IMC não seja o único determinante de um peso saudável, 
+                            ele oferece um ponto de partida valioso para avaliar sua saúde e bem-estar geral.
+                        </p>
+                     
+                </div>
+            </div>
+            <div class="container-imc" id="container">
+               <div class="card-total">
+                   <p>Insira seus dados abaixo</p>
+                   <form action=""  id="form">
+                        <div class="medidas">
+                            <div class="radio">
+                                <input type="radio" id="metric" name="metric" checked>
+                                <label for="metric">Métrica</label>
+                            </div>
+                   
+                            <div class="radio">
+                                <input type="radio" id="imperial" name="metric">
+                                <label for="imperial">Imperial</label>
+                            </div>
+                        </div>
+                        <div class="card-imc ">
+                            <div class="altura">
+                                <label>Altura</label>
+                                <input type="number" id="altura" placeholder="0" name="altura">
+                            </div>
+                            <div class="peso">
+                                <label>Peso</label>
+                                <input type="number" id="peso" placeholder="0" name="peso">
+                            </div>
+                        </div>
+                        <div class="imperial">
+                            <div class="ft">
+                                <label>Altura</label>
+                                <div class="ft-in" id="ft-in">
+                                    <div class="card-ft"><input  type="number" id="ft" placeholder="0" name="ft"></div>
+                                    <div class="card-in"><input  type="number" id="in" placeholder="0" name="in"></div>
+                                </div>
+                            </div>
+                            <div class="st-lbs" id="st-lbs">
+                                <label>Peso</label>
+                                <div class="st">
+                                    <div class="card-st"><input type="number" id="st" placeholder="0" name="st"></div>
+                                    <div class="card-lbs"><input type="number" id="lbs" placeholder="0" name="lbs"></div>
+                                </div>
+                            </div>
+                        </div>
+                   </form>
+                   
+                        <div  data-resultado>
+                            <h1>Bem-vindo!</h1>
+                            <p>Digite sua altura e peso e você verá seu resultado de IMC aqui</p>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        <article>
+            <section class="container-bmi-result">
+                <div class="img-homem">
+                    <img src="./assets/images/image-man-eating.webp" alt="">
+                </div>
+
+                
+                <div class="card-texto-bmi">
+
+                     <div class="curved-line"><img  src="./assets/images/pattern-curved-line-left.svg" alt=""></div>
+                    <h1>
+                        O que significa o seu resultado de IMC
+                    </h1>
+                        <p>
+                            Uma faixa de IMC de 18,5 a 24,9 é considerada um 'peso saudável'.
+                             Manter um peso saudável pode diminuir suas chances de experimentar
+                             problemas de saúde mais tarde, como obesidade e diabetes tipo 2.
+                             Procure uma dieta nutritiva com teor reduzido de gordura e açúcar,
+                             incorporando amplas frutas e legumes. Adicionalmente,
+                             esforce-se para a atividade física regular,
+                             idealmente cerca de 30 minutos por dia durante cinco dias por semana.
+                        </p>
+                </div>
+            </section>   
+
+
+        </article>
+        <section class="container-atividades">
+                <div class="card-atividades">
+                    <div class="card-geral">
+                        <div class="img-flex"><img src="./assets/images/icon-eating.svg" alt=""></div>
+                        <div class="flex">
+                            <h2>
+                                Alimentação saudável
+                            </h2>
+                            <p>
+                                A alimentação saudável promove controle de peso,
+                                prevenção de doenças, melhor digestão, imunidade,
+                                clareza mental e humor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-geral">
+                        <div class="img-flex"><img src="./assets/images/icon-exercise.svg" alt=""></div>
+                        <div class="flex">    
+                            <h2>
+                                Exercício regular
+                            </h2>
+                            <p>
+                                O exercício melhora o condicionamento físico, ajuda no controle do peso,
+                                eleva o humor e reduz o risco de doenças,
+                                promovendo o bem-estar e a longevidade.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-geral">
+                        <div class="img-flex"><img src="./assets/images/icon-sleep.svg" alt=""></div>
+                        <div class="flex">
+                            <h2>
+                                Sono adequado
+                            </h2>
+                            <p>
+                                O sono melhora a clareza mental, a estabilidade emocional,
+                                e bem-estar físico,
+                                promovendo restauração geral e rejuvenescimento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="container-limitacoes">
+            <section class="card-limitacoesImc ">
+                <div class="card-genero-limitacoes grid-area">
+                    <div class="texto-limitacoes item-1">
+                        <h1>Limitações do IMC</h1>
+                        <p>
+                            Embora o IMC seja frequentemente um indicador prático de peso saudável,
+                            ele não é adequado para todas as pessoas. Grupos específicos 
+                            devem considerar cuidadosamente 
+                            seus resultados de IMC e, em certos casos, 
+                            a medição pode não ser benéfica.
+                        </p>
+                    </div>
+                    <div class="geral item-2" id="genero" >
+                        <div class="box" >
+                            <div class="img" >
+                                <img src="./assets/images/icon-gender.svg" alt="">
+                                    <h3>
+                                        Gênero
+                                    </h3>
+                            </div>
+                                <p>
+                                    O desenvolvimento e a composição da gordura corporal
+                                    de meninas e meninos variam com a idade.
+                                    Consequentemente, a idade e o sexo da criança
+                                    são considerados ao avaliar seu IMC.
+                                </p>
+                        </div>                      
+                    </div>
+                    <div class="img-curva item-3" ><img  src="./assets/images/pattern-curved-line-right.svg" alt=""></div>
+                    <div class="geral item-4" >
+                        <div class="box"id="idade" >
+                            
+                            <div class="img " >
+                                <img src="./assets/images/icon-age.svg" alt="">
+                                <h3>Idade</h3>
+                            </div>
+                            <p>
+                                Em indivíduos idosos, o aumento da gordura corporal
+                                e a perda muscular podem fazer com que
+                                o IMC subestime o conteúdo de gordura corporal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" item-5" >
+                        <div class="box" id="musculo">
+                            <div class="img">
+                                <img src="./assets/images/icon-muscle.svg" alt="">
+                                <h3>Músculo</h3>
+                            </div>
+                            <p>
+                                O IMC pode classificar erroneamente indivíduos
+                                musculosos como sobrepeso ou obesos,
+                                pois não diferencia músculo de gordura.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="geral item-6" id="Gravidez">
+                        <div class="box" >
+                            <div class="img">
+                                <img src="./assets/images/icon-pregnancy.svg" alt="">
+                                <h3>Gravidez</h3>
+                            </div>
+                            <p>
+                                As gestantes experimentam ganho de peso devido ao crescimento do bebê.
+                                Manter um IMC pré-gravidez saudável
+                                é aconselhável para minimizar os riscos à saúde da mãe e do filho.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="geral item-7" id="corrida">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./assets/images/icon-race.svg" alt="">
+                                <h3>Corrida</h3>
+                            </div>
+                            <p>
+                                Certos problemas de saúde podem afetar indivíduos de algumas origens negras e asiáticas
+                                com IMCs mais baixos do que outros. Para saber mais,
+                                é aconselhável discutir isso com seu médico de família ou enfermeira clínica.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+
+</body>
+</html>

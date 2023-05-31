@@ -1,0 +1,253 @@
+@media (max-width: 768px){
+    body{
+        width: 768px;
+        height: 3082px;
+        overflow-x: hidden;
+    }
+    .container-principal{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .card-text {
+        width: 768px;
+        height: 640px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-text > img{
+        margin: 0;
+        margin-top: 33.33px;
+        margin-bottom: 41px;
+        place-self: center;
+    }
+    .texto  {
+        margin: 0 auto;
+    }
+    .texto h1{
+        width: 486px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .texto p{
+        text-align: center;
+        width: 586px;
+        margin-left: -20px;
+        
+    }
+    .container-imc{
+        width: 686px;
+        height: 467px;
+        position: absolute;
+        bottom: -200px;
+        left: 40px;
+        border-radius: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin: 0;
+
+    }
+    .container-imperial{
+        width: 686px;
+        height: 600px;
+        position: absolute;
+        bottom: -330px;
+        left: 40px;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .medidas{
+        gap: 210px;
+    }
+
+  #altura, #peso{
+    width: 299px;
+    height: 69px;
+   }
+   [data-resultado] {
+    width: 622px;
+    height: 149px;
+    margin-top: 32px;
+   }
+
+   .st-lbs input {
+    width: 299px;
+    height: 69px;
+   }
+
+.ft-in input{
+    width: 299px;
+    height: 69px;
+}
+
+   .altura::after{
+    top: -50px;
+    left: 220px;
+}
+
+.peso::after{    
+    top: -50px;
+    left: 220px;
+}  
+
+
+   .card-ft::after{    
+    left: 230px;
+}  
+.card-in::after{    
+    left: 230px;
+}  
+
+.card-st::after{    
+    left: 230px;
+}           
+.card-lbs::after{    
+   left: 230px;
+}           
+.container-bmi-result{
+    margin: 0;
+    margin-top: 320px;
+    gap: 300px;
+}
+.curved-line{
+    display: none;
+}
+.card-texto-bmi{
+    width: 331px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.card-texto-bmi h1{
+    font-size: 32px;
+}
+
+.card-texto-bmi p{
+    width: 331px;
+   font-size: 16px;
+}
+.img-homem img{
+    position: absolute;
+    left: -100px;
+    width: 360.96px;
+    height: 411.09px;
+    object-fit: contain;
+}
+
+
+.container-atividades{
+    width: 790px;
+    height: 503px;
+    margin: 0;
+    margin-top: 196px;
+    border-radius: 0px;
+}
+
+.card-atividades{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 39px;
+    width: 686px;
+    height: 383px;
+    gap:45px;
+}
+
+.card-geral{
+    display: flex;
+    margin: 0;
+    
+}
+.img-flex {
+    display: flex;
+    align-items: center;
+    
+}
+.img-flex img{
+    margin: 0 auto;
+    
+}
+    
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 686px;
+    height: 101px;
+    margin-left: 40px;
+}
+.flex p{
+   width: 532px;
+   height: 48px;
+}
+
+
+
+
+.card-limitacoesImc{
+    margin: 0;
+    margin-left: 39px;
+    width: 686px;
+    height: 963px;
+    margin-top: 56px;
+}
+
+.img-curva{
+    display: none;
+}
+ 
+
+.texto-limitacoes{
+    margin-bottom: 56px;
+}
+.texto-limitacoes h1{
+    font-size: 32px;
+    text-align: center;
+}
+.texto-limitacoes p{
+    text-align: center;
+    width: 668px;
+    height: 52px;
+}
+
+
+.grid-area{
+    grid-template-areas:
+    "texto texto "
+    "genero idade"
+    "musculo gravidez"
+    "corrida corrida"
+   ;
+
+}
+.item-1{
+    left: 0;
+}
+.item-2{
+    right: 0px;
+}
+.item-4{
+    left: -50px;
+}
+.item-5{
+    left: -0px;
+}
+.item-6{
+    margin-left: 0;
+    margin-top: 0;
+    left: -50px;
+
+}
+.item-7{
+    margin-left: 190px;
+    top: 24px;
+}
+.geral,.item-5{
+    width: 335.5px;
+    height: 232px;
+}
+
+}

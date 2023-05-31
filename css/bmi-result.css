@@ -1,0 +1,48 @@
+.container-bmi-result{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 130px;
+}
+
+.img-homem img{
+    width:564px;
+    height: 533px;
+
+}
+
+
+.card-texto-bmi{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    
+}
+
+.curved-line{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+.curved-line img{
+    height: 185px;
+    position: relative;
+    top: -40px;
+}
+
+
+.card-texto-bmi h1{
+    font-size: 48px;
+    color: #253347;
+    font-weight: bold;
+}
+
+.card-texto-bmi p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6E85;
+    width: 465px;
+    height: 168px;
+    margin-top: 35PX;
+}
